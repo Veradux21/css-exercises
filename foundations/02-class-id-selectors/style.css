@@ -1,0 +1,21 @@
+/* Style.css, p is odd, div is even*/
+
+.odd {
+    background-color: hsl(350, 56%, 81%);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#two {
+    color: #0101eb;
+    font-size: 36px;
+}
+
+.odd.three {
+    font-size: 24px;    
+}
+
+#four {
+    background-color: #a6ee90;
+    font-size: 24px;
+    font-weight: 700;
+}

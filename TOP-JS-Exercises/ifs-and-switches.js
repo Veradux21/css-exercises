@@ -75,3 +75,14 @@ function update(bgColor, textColor) {
   html.style.backgroundColor = bgColor;
   html.style.color = textColor;
 }
+
+//TOP Practice
+let firstName = "Inigo";
+let lastName = "Montoya";
+let currentYear = 2022;
+let birthYear = 2011;
+
+let greeting = 'Hello, my name is ' + firstName + lastName +  ' You killed my father when I was' +  (currentYear - birthYear) + ' prepare to die.';
+
+console.log(greeting);
+

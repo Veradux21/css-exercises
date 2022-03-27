@@ -55,10 +55,29 @@
         para.textContent += `${num} square root is ${sqrt(num)}`
       }
     });
+/* Arrow functions*/
+    let min = (a, b) => (a > b) ? a : b ; //return larger number, as arrow funct
 
-    function min (a, b) {
-      return (a > b) ? a : b
-    }; //return larger number
+    //rewrite:
+    function ask1(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      }
+      
+      ask1(
+        "Do you agree?",
+        function() { alert("You agreed."); },
+        function() { alert("You canceled the execution."); }
+      );
+
+    //Rewritten as arrow expressions:
+    let ask = (question, yes, no) => confirm(question) ? yes() : no()
+
+    ask (
+        "Do you agree?",
+        () => alert("You agreed."),
+        () => alert("You canceled the execution.")
+    );
 
 
 

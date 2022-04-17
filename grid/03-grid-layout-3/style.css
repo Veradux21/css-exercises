@@ -22,15 +22,6 @@
   background-color: #393f4d;
 }
 
-.logo {
-}
-
-.menu {
-}
-
-.menu ul {
-}
-
 .menu ul,
 .menu li {
   font-size: 16px;
@@ -48,8 +39,6 @@
   border-radius: 10px;
 }
 
-.photo  {
-}
 
 .sidebar .side-content {
   background-color: white;
@@ -60,9 +49,6 @@
 
 .nav {
   background-color: #FF7755;
-}
-
-.nav ul {
 }
 
 .nav ul li {

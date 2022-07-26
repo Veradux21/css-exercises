@@ -1,6 +1,10 @@
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
 .para,
 .small-para {
-  color: hsl(0, 100%, 50%);
+  color: hsl(0, 0%, 0%);
 }
 
 p.small-para {
@@ -29,6 +33,6 @@ p.small-para {
 }
 
 div.text {
-  color: green;
+  color: rgb(0, 0, 0);
   font-size: 22px;
 }
